@@ -27,24 +27,6 @@ img{ border:none; vertical-align: middle; }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 페이지 컨테이너 */
 .page_container{
     font-family: 'Roboto';
@@ -369,6 +351,7 @@ img{ border:none; vertical-align: middle; }
     .upgrade-item{
         margin: 10px;
         text-align: center;
+        /* line-height: 300px; */
     }
     #upgrade1{
         width: 300px;
@@ -420,7 +403,13 @@ img{ border:none; vertical-align: middle; }
             opacity: 0.9;
             border-radius: 20px;
     }
-
+    #upic5{
+        position: absolute;
+        width: 141px;
+        height: 141px;
+        left: 1175px;
+        top: 902px;
+    }
 .banner2{
     position: absolute;
     width: 1920px;
@@ -430,6 +419,43 @@ img{ border:none; vertical-align: middle; }
     
     background: #FFF8EE;
     border-radius: 0px;   
+}
+#nam_name{
+    position: absolute;
+    width: 274px;
+    height: 42px;
+    left: 376px;
+    top: 124px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #F8BAA0;
+}
+#nam_naming{
+    position: absolute;
+width: 800px;
+height: 116px;
+left: 376px;
+top: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 29px;
+/* or 160% */
+
+
+color: rgba(0, 0, 0, 0.5);
+}
+#napic{
+    position: absolute;
+width: 400px;
+height: 362px;
+left: 1198px;
+top: 39px;
 }
 /* .six_rule1{
     box-sizing: border-box;
