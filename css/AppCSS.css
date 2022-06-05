@@ -3,6 +3,7 @@
 
 /* 기본으로 맞추기 */
 body{
+    
    height:100%; 
     white-space: normal;
     word-break: normal;
@@ -29,6 +30,8 @@ img{ border:none; vertical-align: middle; }
 
 /* 페이지 컨테이너 */
 .page_container{
+    box-sizing:content-box;
+    border: 5px solid black;
     font-family: 'Roboto';
     font-style: normal;
     /* position: relative; */
@@ -37,6 +40,7 @@ img{ border:none; vertical-align: middle; }
 }
     /* 헤더 */
     .header{
+        border: 5px solid black;
         position: absolute;
         width: 1920px;
         height: 756px;
@@ -47,7 +51,65 @@ img{ border:none; vertical-align: middle; }
         border-radius: 0px;
     }
         /* 메뉴 */
+        .nav{
+            text-align: center;
+            border: 2px solid black;
+        }
+        #menu1{
+            border: 2px solid black;
+            position: absolute;
+width: 60px;
+height: 22px;
+left: 828px;
+top: 58px;
 
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+        }
+        #menu2{
+            border: 2px solid black;
+            position: absolute;
+width: 75px;
+height: 22px;
+left: 930px;
+top: 58px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+        }
+        #menu3{
+            border: 2px solid black;
+            position: absolute;
+width: 75px;
+height: 22px;
+left: 1046px;
+top: 58px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+        }
         /* 앱 정의 */
             /* 로고 */
             #logo_img{
@@ -57,6 +119,7 @@ img{ border:none; vertical-align: middle; }
             }
             /* 앱 정의 설명 시작 */
             #def_name{
+                border: 5px solid black;
                 position: absolute;
                 width: 352px;
                 height: 56px;
@@ -70,6 +133,7 @@ img{ border:none; vertical-align: middle; }
                 color: #FFFFFF;
             }
             #def_intro{
+                border: 5px solid black;
                 position: absolute;
                 width: 290px;
                 height: 33px;
@@ -85,16 +149,19 @@ img{ border:none; vertical-align: middle; }
             }
             /* 앱 페이지 이미지 */
             #show_img1{
+                border: 5px solid black;
                 position: absolute;
                 left: 1055px;
                 top: 203px;    
             }
             #show_img2{
+                border: 5px solid black;
                 position: absolute;
                 left: 1398px;
                 top: 69px;
             }
             #def_definition{
+                border: 5px solid black;
                 position: absolute;
                 width: 600px;
                 height: 116px;
@@ -113,10 +180,12 @@ img{ border:none; vertical-align: middle; }
 /* 배너1 */
     /* 문제점 */
     .problem{
+        border: 5px solid black;
         display: flex;
         justify-content : center;
     }
     #pro_name{
+        border: 5px solid black;
         display: flex;
         justify-content : center;
         position: absolute;
@@ -135,6 +204,7 @@ img{ border:none; vertical-align: middle; }
         color: #000000;
     }
     #pro_intro{
+        border: 5px solid black;
         display: flex;
         justify-content : center;
         position: absolute;
@@ -157,6 +227,7 @@ img{ border:none; vertical-align: middle; }
         border: solid blue;
     } */
     #pro_probelms1{
+        border: 5px solid black;
         position: absolute;
         width: 347px;
         height: 65px;
@@ -167,6 +238,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment1{
+        border: 5px solid black;
         position: absolute;
         width: 347px;
         height: 29px;
@@ -184,6 +256,7 @@ img{ border:none; vertical-align: middle; }
         color: rgba(0, 0, 0, 0.8);
     }
     #pro_probelms2{
+        border: 5px solid black;
         position: absolute;
         width: 613px;
         height: 65px;
@@ -194,6 +267,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment2{
+        border: 5px solid black;
         position: absolute;
         width: 613px;
         height: 29px;
@@ -207,6 +281,7 @@ img{ border:none; vertical-align: middle; }
         color: rgba(0, 0, 0, 0.8);        
     }
     #pro_probelms3{
+        border: 5px solid black;
         position: absolute;
         width: 398px;
         height: 65px;
@@ -217,6 +292,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment3{
+        border: 5px solid black;
         position: absolute;
         width: 398px;
         height: 29px;
@@ -232,6 +308,7 @@ img{ border:none; vertical-align: middle; }
                 
     }
     #pro_probelms4{
+        border: 5px solid black;
         position: absolute;
         width: 182px;
         height: 65px;
@@ -242,6 +319,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment4{
+        border: 5px solid black;
         position: absolute;
         width: 182px;
         height: 29px;
@@ -256,6 +334,7 @@ img{ border:none; vertical-align: middle; }
         color: rgba(0, 0, 0, 0.8);        
     }
     #pro_probelms5{
+        border: 5px solid black;
         position: absolute;
         width: 531px;
         height: 65px;
@@ -266,6 +345,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment5{
+        border: 5px solid black;
         position: absolute;
         width: 531px;
         height: 29px;
@@ -280,6 +360,7 @@ img{ border:none; vertical-align: middle; }
         color: rgba(0, 0, 0, 0.8);
     }
     #pro_probelms6{
+        border: 5px solid black;
         position: absolute;
         width: 517px;
         height: 65px;
@@ -290,6 +371,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment6{
+        border: 5px solid black;
         position: absolute;
         width: 517px;
         height: 29px;
@@ -303,6 +385,7 @@ img{ border:none; vertical-align: middle; }
         color: rgba(0, 0, 0, 0.8);        
     } 
     #pro_probelms7{
+        border: 5px solid black;
         position: absolute;
         width: 543px;
         height: 65px;
@@ -313,6 +396,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 100px;
     }
     #pro_ment7{
+        border: 5px solid black;
         position: absolute;
         width: 543px;
         height: 29px;
@@ -327,6 +411,7 @@ img{ border:none; vertical-align: middle; }
         color: rgba(0, 0, 0, 0.8);        
     }
     #line{
+        border: 5px solid black;
         display: flex;
         justify-content : center;
         position: absolute;
@@ -339,6 +424,7 @@ img{ border:none; vertical-align: middle; }
         transform: rotate(90deg);      
     }
     .upgrade{
+        border: 5px solid black;
         position: absolute;
         display: flex;
         flex-direction: row;
@@ -349,21 +435,23 @@ img{ border:none; vertical-align: middle; }
         left:  190px; 
     }
     .upgrade-item{
+        border: 5px solid black;
         margin: 10px;
         text-align: center;
         /* line-height: 300px; */
     }
     #upgrade1{
-        width: 300px;
-        height: 310px;
+        border: 5px solid black;
+        width: 280px;
+        height: 280px;
         left: 450px; 
         /* top: 3000px; */
-        background: #FFFFFF;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
-        border-radius: 20px;
+        background: #F3F3F3;
         opacity: 0.9;
+        border-radius: 20px;
     }
     #upgrade2{
+        border: 5px solid black;
         width: 280px;
         height: 280px;
         left: 788px;
@@ -374,6 +462,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 20px;
     }
     #upgrade3{
+        border: 5px solid black;
         width: 280px;
         height: 280px;
         left: 1106px;
@@ -384,6 +473,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 20px;
     }
     #upgrade4{
+        border: 5px solid black;
         width: 280px;
         height: 280px;
         left: 1426px;
@@ -394,6 +484,7 @@ img{ border:none; vertical-align: middle; }
         border-radius: 20px;  
     }
     #upgrade5{
+        border: 5px solid black;
             width: 280px;
             height: 280px;
             left: 1746px;
@@ -404,6 +495,7 @@ img{ border:none; vertical-align: middle; }
             border-radius: 20px;
     }
     #upic5{
+        border: 5px solid black;
         position: absolute;
         width: 141px;
         height: 141px;
@@ -411,6 +503,7 @@ img{ border:none; vertical-align: middle; }
         top: 902px;
     }
 .banner2{
+    border: 5px solid black;
     position: absolute;
     width: 1920px;
     height: 440px;
@@ -421,6 +514,7 @@ img{ border:none; vertical-align: middle; }
     border-radius: 0px;   
 }
 #nam_name{
+    border: 5px solid black;
     position: absolute;
     width: 274px;
     height: 42px;
@@ -434,6 +528,7 @@ img{ border:none; vertical-align: middle; }
     color: #F8BAA0;
 }
 #nam_naming{
+    border: 5px solid black;
     position: absolute;
 width: 800px;
 height: 116px;
@@ -451,47 +546,259 @@ line-height: 29px;
 color: rgba(0, 0, 0, 0.5);
 }
 #napic{
+    border: 5px solid black;
     position: absolute;
 width: 400px;
 height: 362px;
 left: 1198px;
 top: 39px;
 }
-/* .six_rule1{
+.six_rule{
+    border: 5px solid black;
+    box-sizing: border-box;
+
+position: absolute;
+width: 1920px;
+height: 1061px;
+left: 0px;
+top: 2438px;
+
+border: 3px solid #F8BAA0;
+}
+#six{
+    border: 5px solid black;
+    position: absolute;
+width: 60px;
+height: 29px;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+top: 76px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #616161;
+}
+#six_rule1{
+    border: 5px solid black;
     box-sizing: border-box;
 
     position: absolute;
-    width: 280px;
-    height: 280px;
-    left: 321px;
-    top: 2546px;
+    width: 180px;
+    height: 180px;
+    left: 421px;
+    top: 158px;
     
-    border: 3px solid #F8BAA0;
+    border: 2px solid #F8BAA0;    
+    border-radius: 100%;
 }
-.six_rule2{
+#six_rule2{
+    border: 5px solid black;
     box-sizing: border-box;
 
     position: absolute;
     width: 180px;
     height: 180px;
     left: 621px;
-    top: 2596px;
+    top: 158px;
     
-    border: 2px solid #F8BAA0;   
+    border: 2px solid #F8BAA0;    
+    border-radius: 100%;
 }
-/* .six_rule3{
+#six_rule3{
+    border: 5px solid black;
     box-sizing: border-box;
 
     position: absolute;
     width: 180px;
     height: 180px;
     left: 821px;
-    top: 2596px;
+    top: 158px;
     
-    border: 2px solid #F8BAA0;    
-} */ */
+    border: 2px solid #F8BAA0; 
+    border-radius: 100%;   
+}
+#six_rule4{
+    border: 5px solid black;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 1021px;
+    top: 158px;
+    
+    border: 2px solid #F8BAA0; 
+    border-radius: 100%;   
+}
+#six_rule5{
+    border: 5px solid black;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 1220px;
+    top: 158px;
+    
+    border: 2px solid #F8BAA0; 
+    border-radius: 100%;   
+}
+#six_rule6{
+    border: 5px solid black;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 1420px;
+    top: 158px;
+    
+    border: 2px solid #F8BAA0; 
+    border-radius: 100%;   
+}
+#sha_name{
+    border: 5px solid black;
+    position: absolute;
+    width: 363px;
+    height: 42px;
+    left: 430px;
+    top: 2926px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+#sha_box1{
+    border: 5px solid black;
+    position: absolute;
+    width: 1092px;
+    height: 306px;
+    left: 411px;
+    top: 3020px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;    
+}
+#sha_box_name1{
+    border: 5px solid black;
+    position: absolute;
+    width: 500px;
+    height: 38px;
+    left: 60px;
+    top: 60px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    
+    color: #000000;    
+}
+#sha_box_sharing1{
+    border: 5px solid black;
+    position: absolute;
+width: 770px;
+height: 116px;
+left: 60px;
+top: 132px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 160% */
 
 
+color: rgba(0, 0, 0, 0.5);
+
+}
+#sha_img1{
+    border: 5px solid black;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 869px;
+    top: 69px;    
+}
+.banner4{
+    border: 5px solid black;
+    position: absolute;
+    width: 1920px;
+    height: 348px;
+    left: 0px;
+    top: 3499px;
+    
+    background: #FFF8EE;
+    border-radius: 0px;    
+}
+#plus{
+    position: absolute;
+width: 40px;
+height: 29px;
+left: 940px;
+top: 35px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #939393;
+}
+#cha_name{
+    position: absolute;
+width: 341px;
+height: 42px;
+left: 789px;
+top: 80px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+#cha_intro{
+    position: absolute;
+width: 350px;
+height: 29px;
+left: 811px;
+top: 135px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height, or 160% */
+
+
+color: #5F5F5F;
+
+}
 
 
 
