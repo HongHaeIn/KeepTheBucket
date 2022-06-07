@@ -3,7 +3,6 @@
 
 /* 기본으로 맞추기 */
 body{
-    
    height:100%; 
     white-space: normal;
     word-break: normal;
@@ -15,7 +14,7 @@ body{
     box-sizing: border-box;
     margin:0; padding:0;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, p{
     font-weight: normal;
     font-size: inherit;
 }
@@ -23,7 +22,7 @@ ul,ol,li{
     list-style: none;
 }
 a{ text-decoration: none; }
-a:link,a:visited,a:hover,a:focus{ color:#444; }
+a:link,a:visited,a:hover,a:focus{ color:rgb(255, 242, 242); }
 img{ border:none; vertical-align: middle; }
 
 
@@ -58,20 +57,20 @@ img{ border:none; vertical-align: middle; }
         #menu1{
             border: 2px solid black;
             position: absolute;
-width: 60px;
-height: 22px;
-left: 828px;
-top: 58px;
+            width: 60px;
+            height: 22px;
+            left: 828px;
+            top: 58px;
 
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-/* identical to box height */
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
 
 
-color: #FFFFFF;
+            color: #FFFFFF;
         }
         #menu2{
             border: 2px solid black;
