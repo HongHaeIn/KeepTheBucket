@@ -7,6 +7,8 @@
     top: 0px;
     background: #65fff7;
 }
+
+/* @@@@@@@@@@@@@@ */
 /* 헤더 */
 .header{
     position: absolute;
@@ -118,7 +120,7 @@ a{ text-decoration: none; }
 #def1{
     position: absolute;
     height: 56px;
-    top: 429px;
+    top: 385px;
     
     font-weight: 700;
     font-size: 48px;
@@ -127,7 +129,7 @@ a{ text-decoration: none; }
 #def2{
     position: absolute;
     height: 33px;
-    top: 505px;
+    top: 485px;
     
     font-weight: 700;
     font-size: 28px;
@@ -136,12 +138,14 @@ a{ text-decoration: none; }
 #def3{
     position: absolute;
     height: 116px;
-    top: 573px;
+    top: 560px;
     
-    font-weight: 400;
+    font-weight: 530;
     font-size: 18px;
     line-height: 29px;   
 }
+
+/* @@@@@@@@@@@@@@ */
 /* 배너 1 */
 .banner1{
     position: absolute;
@@ -182,7 +186,7 @@ a{ text-decoration: none; }
     line-height: 29px;
 }
 /* 문제점들 */
-#pro1,#pro2,#pro3,#pro4,#pro5,#pro6,#pro7{
+.pro{
     position: absolute;
     height: 65px;
 
@@ -226,47 +230,167 @@ a{ text-decoration: none; }
     left: 962px;
     top: 530px;
 }
-#upgrade1{
+#orange_line{
     position: absolute;
-width: 280px;
-height: 280px;
-left: 450px;
-top: 845px;
+    width: 150px;
+    height: -1px;
+    left: 890px;
+    top: 730px;
+    text-align: center;
+    border: 2px solid #F8BAA0;
+    transform: rotate(90deg);    
+}
+/* 업그레이드 */
 
-background: #F3F3F3;
-opacity: 0.9;
-border-radius: 20px;
+#upgrade1, #upgrade2, #upgrade3, #upgrade4, #upgrade5{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 872px;
+    opacity: 0.9;
+    background: #F3F3F3;
+    border-radius: 20px;
+}
+#upgrade1{    
+    left: 160px;
+}
+#upgrade2{
+    left: 500px;
+}
+#upgrade3{
+    left: 820px;
+}
+#upgrade4{
+    left: 1140px;
+}
+#upgrade5{
+    left: 1460px;
+}
+.upgrade img{
+    position: absolute;
+    top: 30px; 
+    left: 70px; 
+
+    opacity: 0.75;
+}
+.upgrade p{
+    position: absolute;
+    width: 250px;
+    height: 58px;
+    top: 176px;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+
+    text-align: center;
+    color: #616161;
+    margin-left: 5%;
 }
 
-
-
-
-
-
-
-
+/* @@@@@@@@@@@@@@ */
+/* 배너2 */
 .banner2{
     position: absolute;
     width: 1920px;
     height: 440px;
     left: 0px;
-    top: 1998px;    
+    top: 1998px;
+
+    background: #FFF8EE;
+    border-radius: 0px;
+}
+.banner2 p{
+    position: absolute;
+    width: 850px;
+    left: 350px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+}
+#nam_name{
+    height: 42px;
+    top: 90px;
     
-    background: #ffc772;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #F8BAA0;
+}
+#nam_naming{
+    height: 116px;
+    top: 174px;
+    
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.5);    
+}
+#napic{
+    position: absolute;
+    left: 1210px;
+    top: 39px;    
 }
 
-
-
-
+/* @@@@@@@@@@@@@@ */
+/* 배너3 */
 .banner3{
     position: absolute;
     width: 1920px;
     height: 1045px;
     left: 0px;
     top: 2438px;
-    
-    background: #aeff96;
+
+    background: #FFFFFF;
 }
+.b3_six{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 158px;
+
+    border: 2px solid #F8BAA0;
+    border-radius: 100px; 
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135px;
+
+    text-align: center;  
+    color: #616161;
+}
+#six_rule1{
+    left: 421px;
+}
+#six_rule2{
+    left: 621px;
+}
+#six_rule3{
+    left: 821px;
+}
+#six_rule4{
+    left: 1021px;
+}
+#six_rule5{
+    left: 1221px;
+}
+#six_rule6{
+    left: 1421px;
+}
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@ */
+/* 배너4 */
 .banner4{
     position: absolute;
     width: 1920px;
