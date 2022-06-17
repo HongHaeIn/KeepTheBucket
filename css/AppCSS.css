@@ -88,8 +88,17 @@ a{ text-decoration: none; }
     position: absolute;
 }
 #logo_img{      
-    left: 370px;
-    top: 306px;
+    /* left: 370px;
+    top: 306px; */
+
+    left: 295px;
+    top: 215px; 
+    height: 300px;
+
+    /* left: 370px;
+    top: 280px;
+    width: 130px;
+    height: 130px; */
 }
 #app_img1, #app_img2{
     left: 1055px;
