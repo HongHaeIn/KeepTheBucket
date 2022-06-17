@@ -87,19 +87,13 @@ a{ text-decoration: none; }
 .header img{
     position: absolute;
 }
+/* 로고 이미지 */
 #logo_img{      
-    /* left: 370px;
-    top: 306px; */
-
     left: 295px;
     top: 215px; 
     height: 300px;
-
-    /* left: 370px;
-    top: 280px;
-    width: 130px;
-    height: 130px; */
 }
+/* 앱 이미지 */
 #app_img1, #app_img2{
     left: 1055px;
 

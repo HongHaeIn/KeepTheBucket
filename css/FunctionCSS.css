@@ -1,0 +1,221 @@
+.page_container{
+    position: absolute;
+    width: 1920px;
+    height: 6669px;
+    left: 0px;
+    top: 0px;
+    background: #65fff7;
+}
+.header{
+    position: absolute;
+    width: 1920px;
+    height: 530px;
+    left: 0px;
+    top: 0px;
+
+    background: #F8BAA0;
+}
+/* 메뉴 */
+a{ text-decoration: none; }
+/* 헤더 아래 있는 링크 */
+.header a{
+    position: absolute;
+    height: 22px;
+    top: 58px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+/* 메뉴1 평상시 */
+#menu1:link,#menu1:visited,#menu1:focus{
+    position: absolute;
+    width: 60px;    
+    left: 828px;
+    
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 메뉴1 올렸을때  */
+#menu1:hover{
+    position: absolute;
+    width: 60px;    
+    left: 826px;
+
+    font-weight: 550;
+    font-size: 17px;
+}
+/* 메뉴2 평상시 */
+#menu2:link,#menu2:visited,#menu2:focus{ 
+    width: 70px;    
+    left: 930px;
+
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 메뉴2 올렸을때  */
+#menu2:hover{
+    width: 80px;    
+    left: 927px;
+
+    font-weight: 550;
+    font-size: 17px;
+}
+/* 메뉴3 평상시 */
+#menu3:link,#menu3:visited,#menu3:focus{ 
+    width: 70px;    
+    left: 1046px;
+
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 메뉴3 올렸을때  */
+#menu3:hover{
+    width: 80px;
+    left: 1044px;
+
+    font-weight: 550;
+    font-size: 17px; 
+}
+#logo_img{      
+    position: absolute;
+    height: 300px;
+    left: 295px;
+    top: 100px; 
+}
+.header p{
+    position: absolute;
+    width: 450px;
+    left: 370px;
+    color: #FFFFFF;
+}
+#def1{
+    height: 56px;
+    top: 270px;
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+#def2{
+    height: 33px;
+    top: 360px;
+    
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+/* @@@@@@@@@@@@@@ */
+/* 배너1 */
+.banner1{
+    position: absolute;
+    width: 1920px;
+    height: 3370px;
+    left: 0px;
+    top: 530px;
+    background: #ffffff;
+/* background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; */
+}
+.banner1 p{
+    position: absolute;
+}
+/* 빅멘트 */
+.big_ment{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #000000;
+}
+#main{
+    left: 394px;
+    top: 195px;
+}
+#share{
+    left: 962px;
+    top: 1401px;
+}
+#challenge{
+    left: 345px;
+    top: 2046px;
+}
+#challenge2{
+    left: 373px;
+    top: 2107px;
+
+    text-align:left;
+    color: #F8BAA0;
+}
+#search{
+    left: 1065px;
+    top: 3000px;   
+}
+/* 스몰멘트 */
+.s_ment{
+    width: 680px;
+    height: 144px;
+
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 45px;
+  
+    color: #616161;  
+}
+#main_{ 
+    left: 450px;
+    top: 264px; 
+}
+#share_{
+    left: 964px;
+    top: 1470px;
+}
+#challenge_{ 
+    left: 1270px;
+    top: 2082px;
+}
+#search_{
+    left: 1095px;
+    top: 3070px;
+
+}
+/* 앱 사진들 */
+.banner1 img{
+    position: absolute;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+}
+#main_img{
+    left: 1042px;
+    top: 195px;  
+}
+#sha_img{
+    left: 564px;
+    top: 976px;
+}
+#sha_img1{
+    left: 921px;
+    top: 1049px;
+}
+#sha_img2{
+    left: 1080px;
+    top: 1216px;
+}
+#cha_img{
+    left: 766px;
+    top: 1810px;
+}
+#search_img1{
+    left: 370px;
+    top: 2667px;
+}
+#search_img2{
+    left: 681px;
+    top: 2919px;
+}
