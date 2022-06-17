@@ -345,6 +345,7 @@ a{ text-decoration: none; }
 
     background: #FFFFFF;
 }
+/* 육하원칙 */
 .b3_six{
     box-sizing: border-box;
 
@@ -381,13 +382,60 @@ a{ text-decoration: none; }
 #six_rule6{
     left: 1421px;
 }
+/* 공유박스 */
+#sha_name, #sha_name1{
+    position: absolute;
+    width: 400px;
+    height: 42px;
 
+    font-weight: 700;
 
+    color: #000000;
+}
+#sha_name{
+    left: 430px;
+    top: 450px;
 
+    font-size: 36px;
+    line-height: 42px;
+}
+#sha_box1{
+    position: absolute;
+    width: 1092px;
+    height: 306px;
+    left: 411px;
+    top: 582px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;
+}
+#sha_name1{
+    left: 60px;
+    top: 30px;
+    
+    font-size: 32px;
+    line-height: 38px;
+}
+#sharing1{
+    position: absolute;
+    width: 790px;
+    height: 116px;
+    left: 60px;
+    top: 110px;
 
-
-
-
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+}
+#sha_box1 img{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 869px;
+    top: 69px;
+}
 
 /* @@@@@@@@@@@@@@ */
 /* 배너4 */
@@ -397,6 +445,68 @@ a{ text-decoration: none; }
     height: 348px;
     left: 0px;
     top: 3483px;
+
+    background: #FFF8EE;
+}
+#plus, #cha_name, #cha_intro{
+    position: absolute;
+    text-align: center;
+}
+#plus{
+    width: 40px;
+    height: 29px;
+    left: 940px;
+    top: 35px;
     
-    background: #ffcb83;   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: #939393;
+}
+#cha_name{
+    width: 370px;
+    height: 42px;
+    left: 780px;
+    top: 60px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;    
+}
+#cha_intro{
+    width: 350px;
+    height: 29px;
+    left: 791px;
+    top: 135px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #5F5F5F;
+}
+.banner4 div{
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    top: 214px;
+
+    background: #F8BAA0;
+    border-radius: 100px;    
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+
+    color: #FFFFFF;
+    text-align: center; 
+}
+#btn1{
+    left: 710px;
+}
+#btn2{
+    left: 990px;
 }
