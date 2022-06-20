@@ -390,7 +390,7 @@ height: 645px;
 
     background: #FFFFFF;
 }
-/* 육하원칙 ㄷㅣㅂㅡ*/
+/* 육하원칙 디브*/
 .b3_six{
     box-sizing: border-box;
 
@@ -408,6 +408,10 @@ height: 645px;
 
     text-align: center;  
     color: #616161;
+
+    background-color: #FFFFFF;
+    
+    /* z-index: 1; */
 }
 .b3_six:hover, .b3_six:active{
     box-sizing: border-box;
@@ -418,28 +422,68 @@ height: 645px;
 
     border-radius: 100%;
 
+    transition: 0.7s;
+}
+.b3_six:hover > #six{
     font-weight: 700;
     font-size: 24px;
 
     color: #000000;
 }
+.b3_six:hover ~ .b3_six{
+    position: absolute;
+    margin-left: 100px;
+    transition: 0.7s;
+    /* transition-timing-function: ease; */
+}
 #six_rule1{
-    left: 421px;
+    left: 351px;
 }
 #six_rule2{
-    left: 621px;
+    left: 561px;
 }
 #six_rule3{
-    left: 821px;
+    left: 771px;
 }
 #six_rule4{
-    left: 1021px;
+    left: 981px;
 }
 #six_rule5{
-    left: 1221px;
+    left: 1191px;
 }
 #six_rule6{
-    left: 1421px;
+    left: 1401px;
+}
+
+#rule{
+    position: absolute;
+    width: 280px;
+    top: 100px;
+
+    margin-left: -10%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+
+    text-align: center;
+
+    color: #ffffff00;
+}
+.b3_six:hover > #rule{
+    position: absolute;
+    width: 280px;
+    top: 107px;
+
+    margin-left: 0%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+
+    text-align: center;
+
+    color: rgba(52, 52, 52, 0.9);
+    transition: 0.7s;
+    /* transition: 0.5s; */
 }
 /* 공유박스 */
 #sha_name, #sha_name1{
@@ -462,7 +506,7 @@ height: 645px;
     position: absolute;
     width: 1092px;
     height: 306px;
-    left: 411px;
+    left: 422px;
     top: 582px;
     
     background: #FFFFFF;
