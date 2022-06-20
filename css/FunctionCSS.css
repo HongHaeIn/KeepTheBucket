@@ -160,6 +160,7 @@ a{ text-decoration: none; }
 }
 /* 스몰멘트 */
 .s_ment{
+    position: absolute;
     width: 680px;
     height: 144px;
 
@@ -173,13 +174,23 @@ a{ text-decoration: none; }
     left: 450px;
     top: 264px; 
 }
+#main_def{
+    left: 1195px;
+    top: 257px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+   
+    text-align: center;
+}
 #share_{
     left: 964px;
     top: 1470px;
 }
 #challenge_{ 
     left: 1270px;
-    top: 2082px;
+    top: 2055px;
 }
 #search_{
     left: 1095px;
@@ -210,12 +221,296 @@ a{ text-decoration: none; }
 #cha_img{
     left: 766px;
     top: 1810px;
+    z-index: 1;
 }
 #search_img1{
     left: 370px;
     top: 2667px;
+    z-index: 1;
 }
 #search_img2{
     left: 681px;
     top: 2919px;
+    z-index: 1;
+}
+/* 라인들 */
+#line{
+    position: absolute;
+    width: 620px;
+    height: -2px;
+    left: 618px;
+    top: 2133px;
+
+    border: 1px solid #F8BAA0;
+}
+#circle_line{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 442px;
+    height: 442px;
+    left: 576px;
+    top: 2701px;
+
+    border: 2px solid #F8BAA0;
+    border-radius: 100%;
+}
+
+/* @@@@@@@@@@@@@@@@@@ */
+/* 배너 2 */
+.banner2{
+    position: absolute;
+    width: 1920px;
+    height: 850px;
+    left: 0px;
+    top: 3900px;
+    
+    background: #FFF8EE;
+    border-radius: 0px;    
+}
+#buket{
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 448px;
+    top: 97px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #000000;    
+}
+/* 메뉴들 */
+#bingo{
+    position: absolute;
+    width: 84px;
+    height: 33px;
+    left: 505px;
+    top: 239px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+#bingo_{
+    position: absolute;
+    width: 550px;
+    height: 58px;
+    left: 503px;
+    top: 293px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #616161;
+}
+#picture{
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    left: 503px;
+    top: 427px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #616161;
+}
+#diary{
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 502px;
+    top: 607px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #616161;    
+}
+/* 선들 */
+.c{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 453px;
+
+    border-radius: 100%;
+    z-index: 1;
+}
+#c1{
+    top: 269px;
+    background: #F8BAA0;
+}
+#c2{
+    top: 452px;
+    background: #C4C4C4;
+}
+#c3{
+    top: 632px;
+    background: #C4C4C4;
+}
+.l{
+    position: absolute;
+    width: 0px;
+    height: 374px;
+    left: 467px;
+    top: 278px;
+
+    border: 0.7px solid #C4C4C4;  
+}
+/* 이미지 */
+.banner2 img{
+    position: absolute;
+    left: 1165px;
+    top: 97px;
+    
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+}
+/* @@@@@@@@@@@@@@@@@@ */
+/* 배너 3 */
+.banner3{
+    position: absolute;
+    width: 1920px;
+    height: 1669px;
+    left: 0px;
+    top: 4750px;
+    
+    background: #FFFFFF;
+}
+/* 빅멘트 */
+.big_ment{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #000000;
+}
+#friend{
+    left: 443px;
+    top: 298px;
+}
+#mypage{
+    left: 877px;
+    top: 1379px;
+}
+/* 중간멘트 */
+.m_ment{
+    position: absolute;
+    width: 100px;
+    height: 33px;  
+    left: 468px;  
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #F8BAA0;
+}
+#all{
+    top: 443px;
+}
+#ing{
+    top: 617px;
+}
+/* 스몰멘트 */
+.s_ment{
+    position: absolute;
+    width:480px;
+    height: 58px;
+    left: 468px;
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #616161;
+}
+#all_{
+    top: 497px;
+}
+#ing_{
+    top: 671px; 
+}
+#mypage_{
+    left: 890px;
+    top: 1450px;    
+}
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 6419px;
+    
+    background: #FFF8EE;
+}
+/* 배너 3 이미지 */
+.banner3 img{
+    position: absolute;   
+    top: 200px;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+}
+#friend_img1{
+    left: 968px;
+}
+#friend_img2{
+    left: 1289px;
+}
+#mypage_img{
+    left: 515px;
+    top: 981px;
+}
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 6419px;
+    
+    background: #FFF8EE;
+}
+.footer div{
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    top: 90px;
+
+    background: #F8BAA0;
+    border-radius: 100px;    
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+
+    color: #FFFFFF;
+    text-align: center; 
+}
+#btn1{
+    left: 710px;
+}
+#btn2{
+    left: 990px;
 }

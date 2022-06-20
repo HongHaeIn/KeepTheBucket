@@ -1,0 +1,220 @@
+.page_container{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    
+    background: #e05151;    
+}
+.header{
+    position: absolute;
+    width: 1920px;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+    
+    background: #ffffff;    
+}
+/* 메뉴 */
+a{ text-decoration: none; }
+/* 헤더 아래 있는 링크 */
+.header a{
+    position: absolute;
+    height: 22px;
+    top: 58px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    line-height: 22px;
+
+    color: #000000;
+}
+/* 메뉴1 평상시 */
+#menu1:link,#menu1:visited,#menu1:focus{
+    position: absolute;
+    width: 60px;    
+    left: 828px;
+    
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 메뉴1 올렸을때  */
+#menu1:hover{
+    position: absolute;
+    width: 60px;    
+    left: 826px;
+
+    font-weight: 550;
+    font-size: 17px;
+}
+/* 메뉴2 평상시 */
+#menu2:link,#menu2:visited,#menu2:focus{ 
+    width: 70px;    
+    left: 930px;
+
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 메뉴2 올렸을때  */
+#menu2:hover{
+    width: 80px;    
+    left: 927px;
+
+    font-weight: 550;
+    font-size: 17px;
+}
+/* 메뉴3 평상시 */
+#menu3:link,#menu3:visited,#menu3:focus{ 
+    width: 70px;    
+    left: 1046px;
+
+    font-weight: 400;
+    font-size: 15px;
+}
+/* 메뉴3 올렸을때  */
+#menu3:hover{
+    width: 80px;
+    left: 1044px;
+
+    font-weight: 550;
+    font-size: 17px; 
+}
+
+/* 개발자 페이지 */
+.developer{
+    position: absolute;
+    width: 1920px;
+    height: 944px;
+    left: 0px;
+    top: 136px;
+
+    background: #FFF8EE;
+}
+/* 서브메뉴 */
+.d_menu{
+    position: absolute;
+    width: 310px;
+    height: 70px;
+    top: 94px;
+
+    border: 1px solid #F8BAA0;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    
+    line-height: 67px;
+    text-align: center;
+}
+#dv{
+    left: 645px;
+    background: #F8BAA0;
+    color: #FFFFFF;
+}
+#ds{
+    left: 965px;
+    background: #FFFFFF;
+    color: #F8BAA0;
+}
+/* 팀원소개박스 */
+.box{
+    position: absolute;
+    width: 580px;
+    height: 290px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 7px 7px 1px rgba(176, 176, 176, 0.25);
+    border-radius: 10px;
+}
+#b1{
+    left: 370px;
+    top: 260px;
+}
+#b2{
+    left: 970px;
+    top: 260px;
+}
+#b3{
+    left: 370px;
+    top: 570px;
+}
+#b4{
+    left: 970px;
+    top: 570px;
+}
+/* 팀원소개 사진 */
+.box img{
+    position: absolute;  
+    left: 30px;
+    top: 31px;
+}
+/* 팀원 한줄 설명 */
+#intro{
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 165px;
+    top: 25px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.6);   
+}
+#name{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 165px;
+    top: 44px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;    
+}
+#Language, #Database, #Framework, #Tool{
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    left: 180px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #F8BAA0;
+}
+#language_, #database_, #framework_, #tool_{
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    left: 272px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.6);
+} 
+#Language, #language_{
+    top: 102px;
+}
+#Database, #database_{
+    top: 141px;
+}
+#Framework, #framework_{
+    top: 180px;
+}
+#Tool, #tool_{
+    top: 215px;
+}
