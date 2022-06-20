@@ -109,12 +109,13 @@ a{ text-decoration: none; }
     top: 203px;
 }
 #app_img2{
-    width: 290px;
-height: 645px;
-    left: 1398px;
+    width: 302px;
+    height: 645px;
+    left: 1400px;
     top: 69px;
 
-    border: 6px solid #F3F3F3;
+    /* border: 6px solid #F3F3F3; */
+    border-radius: 10px;
 }
 /* 헤더 아래 있는 글씨 */
 .header p{
@@ -482,7 +483,7 @@ height: 645px;
     text-align: center;
 
     color: rgba(52, 52, 52, 0.9);
-    transition: 0.7s;
+    transition: 0.9s;
     /* transition: 0.5s; */
 }
 /* 공유박스 */
