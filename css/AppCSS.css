@@ -297,6 +297,7 @@ height: 645px;
     text-align: center;
 }
 .upgrade:hover > #upic{
+    /* top: 40px;  */
     opacity: 1; 
     transition: 0.5s;
 }
@@ -320,7 +321,7 @@ height: 645px;
 }
 .upgrade:hover > #up{
     width: 300px;
-    top: 200px;
+    top: 190px;
 
     font-weight: 700;
     font-size: 20px;
@@ -389,7 +390,7 @@ height: 645px;
 
     background: #FFFFFF;
 }
-/* 육하원칙 */
+/* 육하원칙 ㄷㅣㅂㅡ*/
 .b3_six{
     box-sizing: border-box;
 
@@ -407,6 +408,20 @@ height: 645px;
 
     text-align: center;  
     color: #616161;
+}
+.b3_six:hover, .b3_six:active{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 280px;
+    height: 280px;
+
+    border-radius: 100%;
+
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #000000;
 }
 #six_rule1{
     left: 421px;
