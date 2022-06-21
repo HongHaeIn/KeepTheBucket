@@ -487,23 +487,55 @@ a{ text-decoration: none; }
     /* transition: 0.5s; */
 }
 /* 공유박스 */
-#sha_name, #sha_name1{
-    position: absolute;
-    width: 400px;
-    height: 42px;
-
-    font-weight: 700;
-
-    color: #000000;
-}
-#sha_name{
-    left: 430px;
+.sha_name{
+    left: 930px;
     top: 450px;
 
     font-size: 36px;
     line-height: 42px;
 }
-#sha_box1{
+input[type="radio"]{
+    display: none;
+}
+.sha_box{
+    display: none;
+}
+.btn{
+    padding: 10px;
+    text-align: center;
+}
+label[for*="tab"]{
+    /* position: absolute; */
+    /* top: 916px; */
+
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 100%;
+    margin-top: 816px;
+    
+}
+input[id="tab01"]:checked ~ #sha_box1{
+    display: block;
+}
+input[id="tab02"]:checked ~ #sha_box2{
+    display: block;
+}
+input[id="tab03"]:checked ~ #sha_box3{
+    display: block;
+}
+input[id="tab01"]:checked ~ .btn > label[for="tab01"]{
+    background-color: red;
+}
+input[id="tab02"]:checked ~ .btn > label[for="tab02"]{
+    background-color: red;
+}
+input[id="tab03"]:checked ~ .btn > label[for="tab03"]{
+    background-color: red;
+}
+.sha_box{
     position: absolute;
     width: 1092px;
     height: 306px;
@@ -514,14 +546,21 @@ a{ text-decoration: none; }
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
     border-radius: 50px;
 }
-#sha_name1{
+#sha_name{
+    position: absolute;
+    width: 400px;
+    height: 42px;
     left: 60px;
     top: 30px;
-    
+    font-weight: 700;
+
+    color: #000000;
+
+    font-weight: 700;
     font-size: 32px;
     line-height: 38px;
 }
-#sharing1{
+#sharing{
     position: absolute;
     width: 790px;
     height: 116px;
@@ -533,7 +572,7 @@ a{ text-decoration: none; }
     line-height: 29px;
     color: rgba(0, 0, 0, 0.5);
 }
-#sha_box1 img{
+.sha_box img{
     position: absolute;
     width: 160px;
     height: 160px;
