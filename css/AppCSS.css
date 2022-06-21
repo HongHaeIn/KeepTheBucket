@@ -98,24 +98,18 @@ a{ text-decoration: none; }
 }
 /* 앱 이미지 */
 #app_img1, #app_img2{
-    left: 1055px;
-
     filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
     border-radius: 10px;
 
     z-index: 1;
 }
 #app_img1{
+    left: 1055px;
     top: 203px;
 }
 #app_img2{
-    width: 302px;
-    height: 645px;
     left: 1400px;
     top: 69px;
-
-    /* border: 6px solid #F3F3F3; */
-    border-radius: 10px;
 }
 /* 헤더 아래 있는 글씨 */
 .header p{
@@ -455,7 +449,6 @@ a{ text-decoration: none; }
 #six_rule6{
     left: 1401px;
 }
-
 #rule{
     /* display: none; */
     position: absolute;
