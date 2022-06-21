@@ -408,6 +408,7 @@ a{ text-decoration: none; }
     
     /* z-index: 1; */
 }
+/* 육하원칙 올렸을때 */
 .b3_six:hover, .b3_six:active{
     box-sizing: border-box;
 
@@ -449,6 +450,7 @@ a{ text-decoration: none; }
 #six_rule6{
     left: 1401px;
 }
+/* 육하원칙 글씨 올렸을때 */
 #rule{
     /* display: none; */
     position: absolute;
@@ -481,20 +483,12 @@ a{ text-decoration: none; }
     -webkit-animation: fadein 1.5s
 }
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 /* 공유박스 */
 .sha_name{
@@ -517,18 +511,16 @@ input[type="radio"]{
     text-align: center;
 }
 label[for*="tab"]{
-    /* position: absolute; */
-    /* top: 916px; */
-
     display: inline-block;
     padding: 10px;
-    border: 2px solid #F8BAA0;
-    background-color: rgb(255, 255, 255);
+    
     cursor: pointer;
     margin: 5px;
-    border-radius: 100%;
     margin-top: 915px;
-    
+
+    border: 2px solid #F8BAA0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
 }
 input[id="tab01"]:checked ~ #sha_box1{
     display: block;
@@ -536,20 +528,12 @@ input[id="tab01"]:checked ~ #sha_box1{
     -webkit-animation: fadein 0.7s
 }
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 0.7;
-    }
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 @-webkit-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 0.7;
-    }
+    from {opacity: 0;}
+    to {opacity: 1;}
 } 
 
 input[id="tab02"]:checked ~ #sha_box2{
@@ -558,41 +542,25 @@ input[id="tab02"]:checked ~ #sha_box2{
     -webkit-animation: fadein 0.7s
 }
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 0.7;
-    }
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
-@-webkit-keyframes fadein { 
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 0.7;
-    }
-}
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
 input[id="tab03"]:checked ~ #sha_box3{
     display: block;
     animation: fadein 0.7s;
     -webkit-animation: fadein 0.7s
 }
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 0.7;
-    }
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
-@-webkit-keyframes fadein { 
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 0.7;
-    }
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 } 
 input[id="tab01"]:checked ~ .btn > label[for="tab01"]{
     background-color: #F8BAA0;
