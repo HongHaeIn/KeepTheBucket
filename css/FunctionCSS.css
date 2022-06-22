@@ -5,6 +5,8 @@
     left: 0px;
     top: 0px;
     background: #65fff7;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 .header{
     position: absolute;
@@ -16,7 +18,10 @@
     background: #F8BAA0;
 }
 /* 메뉴 */
-a{ text-decoration: none; }
+a{ 
+    text-decoration: none;
+
+}
 /* 헤더 아래 있는 링크 */
 .header a{
     position: absolute;
@@ -580,6 +585,7 @@ to {opacity: 1;}
     position: absolute;   
     top: 200px;
     filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
 }
 #friend_img1{
     left: 968px;

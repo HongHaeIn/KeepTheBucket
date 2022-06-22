@@ -6,6 +6,8 @@
     left: 0px;
     top: 0px;
     background: #65fff7;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 /* @@@@@@@@@@@@@@ */
@@ -20,7 +22,10 @@
     background: #F8BAA0;
 }
 /* 메뉴 */
-a{ text-decoration: none; }
+a{ 
+    text-decoration: none; 
+
+}
 /* 헤더 아래 있는 링크 */
 .header a{
     position: absolute;
@@ -362,7 +367,7 @@ a{ text-decoration: none; }
     height: 116px;
     top: 174px;
     
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     line-height: 29px;
     font-weight: 550;
