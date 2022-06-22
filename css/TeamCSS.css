@@ -80,7 +80,7 @@ a{ text-decoration: none; }
 }
 
 /* 개발자 페이지 */
-.developer{
+.banner1{
     position: absolute;
     width: 1920px;
     height: 944px;
@@ -88,33 +88,6 @@ a{ text-decoration: none; }
     top: 136px;
 
     background: #FFF8EE;
-}
-/* 서브메뉴 */
-.d_menu{
-    position: absolute;
-    width: 310px;
-    height: 70px;
-    top: 94px;
-
-    border: 1px solid #F8BAA0;
-
-    font-family: 'Noto Sans KR';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    
-    line-height: 67px;
-    text-align: center;
-}
-#dv{
-    left: 645px;
-    background: #F8BAA0;
-    color: #FFFFFF;
-}
-#ds{
-    left: 965px;
-    background: #FFFFFF;
-    color: #F8BAA0;
 }
 /* 팀원소개박스 */
 .box{
@@ -156,18 +129,31 @@ a{ text-decoration: none; }
     position: absolute;
     width: 200px;
     height: 19px;
-    left: 165px;
+    left: 139px;
     top: 25px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     
     text-align: center;
     
     color: rgba(0, 0, 0, 0.6);   
+}
+#d_intro{
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 109px;
+    top: 25px;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.6);  
 }
 #name{
     position: absolute;
@@ -185,7 +171,7 @@ a{ text-decoration: none; }
     
     color: #000000;    
 }
-#Language, #Database, #Framework, #Tool{
+#Language, #Database, #Framework, #Tool, #Adobe, #d_Tool{
     position: absolute;
     width: 80px;
     height: 16px;
@@ -197,7 +183,7 @@ a{ text-decoration: none; }
 
     color: #F8BAA0;
 }
-#language_, #database_, #framework_, #tool_{
+#language_, #database_, #framework_, #tool_, #adobe_, #d_tool_{
     position: absolute;
     width: 400px;
     height: 20px;
@@ -209,10 +195,10 @@ a{ text-decoration: none; }
 
     color: rgba(0, 0, 0, 0.6);
 } 
-#Language, #language_{
+#Language, #language_, #Adobe, #adobe_{
     top: 102px;
 }
-#Database, #database_{
+#Database, #database_, #d_Tool, #d_tool_{
     top: 141px;
 }
 #Framework, #framework_{
@@ -220,4 +206,51 @@ a{ text-decoration: none; }
 }
 #Tool, #tool_{
     top: 215px;
+}
+input[type="radio"]{
+    display: none;
+}
+.intro_box{
+    display: none;
+}
+.btn{
+    padding: 10px;
+    text-align: center;
+}
+label[for*="tab"]{
+    display: inline-block;
+
+    width: 310px;
+    height: 50px;
+    
+    padding: 10px;
+    margin: 5px;
+    margin-top: 80px;
+    text-align: center;
+
+    cursor: pointer;
+
+    ont-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+
+    background: rgb(255, 255, 255);
+    border: 2px solid #F8BAA0;
+    color: #F8BAA0;
+}
+input[id="tab01"]:checked ~ #developer{
+    display: block;
+}
+input[id="tab02"]:checked ~ #designer{
+    display: block;
+}
+input[id="tab01"]:checked ~ .btn > label[for="tab01"]{
+    background-color: #F8BAA0;
+    color: #ffffff;
+}
+input[id="tab02"]:checked ~ .btn > label[for="tab02"]{
+    background-color: #F8BAA0;
+    color: #ffffff;
 }
