@@ -1,7 +1,7 @@
 /* 페이지 컨테이너 */
 .page_container{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 3831px;
     left: 0px;
     top: 0px;
@@ -14,7 +14,7 @@
 /* 헤더 */
 .header{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 756px;
     left: 0px;
     top: 0px;
@@ -159,7 +159,7 @@ a{
 /* 배너 1 */
 .banner1{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 1242px;
     left: 0px;
     top: 756px;
@@ -337,7 +337,7 @@ a{
 /* 배너2 */
 .banner2{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 440px;
     left: 0px;
     top: 1998px;
@@ -383,7 +383,7 @@ a{
 /* 배너3 */
 .banner3{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 1045px;
     left: 0px;
     top: 2438px;
@@ -625,7 +625,7 @@ input[id="tab03"]:checked ~ .btn > label[for="tab03"]{
 /* 배너4 */
 .banner4{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 348px;
     left: 0px;
     top: 3483px;

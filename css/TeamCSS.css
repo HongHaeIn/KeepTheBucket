@@ -1,6 +1,6 @@
 .page_container{
     position: relative;
-    width: 1920px;
+    width: 1912px;
     height: 900px;
     
     background: #e05151;   
@@ -9,7 +9,7 @@
 }
 .header{
     position: absolute;
-    width: 1920px;
+    width: 1912px;
     height: 86px;
     left: 0px;
     top: 0px; 
@@ -87,8 +87,8 @@ a{
 /* 개발자 페이지 */
 .banner1{
     position: absolute;
-    width: 1920px;
-    height: 825px;
+    width: 1912px;
+    height: 850px;
     left: 0px;
     top: 86px;
 
@@ -121,13 +121,32 @@ a{
     top: 510px;
 }
 /* 팀원소개 사진 */
-.box img{
+.who{
     position: absolute;  
     width: 120px;
     /* height: 120px; */
     left: 30px;
     top: 31px;
     border-radius: 100%;
+}
+.ad{
+    position: absolute;
+    top: 210px;
+}
+#ps{
+    left: 275px;
+}
+#ai{
+    left: 315px;
+}
+#ae{
+    left: 355px;
+}
+#id{
+    left: 394px;
+}
+#xd{
+    left: 434px;
 }
 /* 팀원 한줄 설명 */
 #intro{

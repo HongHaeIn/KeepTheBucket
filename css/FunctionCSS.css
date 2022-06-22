@@ -1,6 +1,6 @@
 .page_container{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 6669px;
     left: 0px;
     top: 0px;
@@ -10,7 +10,7 @@
 }
 .header{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 530px;
     left: 0px;
     top: 0px;
@@ -117,7 +117,7 @@ a{
 /* 배너1 */
 .banner1{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 3370px;
     left: 0px;
     top: 530px;
@@ -265,7 +265,7 @@ a{
 /* 배너 2 */
 .banner2{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 850px;
     left: 0px;
     top: 3900px;
@@ -501,7 +501,7 @@ to {opacity: 1;}
 /* 배너 3 */
 .banner3{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 1669px;
     left: 0px;
     top: 4750px;
@@ -573,7 +573,7 @@ to {opacity: 1;}
 }
 .footer{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 250px;
     left: 0px;
     top: 6419px;
@@ -599,7 +599,7 @@ to {opacity: 1;}
 }
 .footer{
     position: absolute;
-    width: 1920px;
+    width: 1905px;
     height: 250px;
     left: 0px;
     top: 6419px;
