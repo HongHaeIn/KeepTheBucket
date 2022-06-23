@@ -375,9 +375,11 @@ input[id="tab01"]:checked ~ .btn > label[for="tab01"]{
 }
 input[id="tab02"]:checked ~ .btn > label[for="tab02"]{
     background-color: #F8BAA0;
+    transition: 0.5s;
 }
 input[id="tab03"]:checked ~ .btn > label[for="tab03"]{
     background-color: #F8BAA0;
+    transition: 0.5s;
 }
 input[id="tab01"]:checked ~ #bingo{
     font-weight: 700;

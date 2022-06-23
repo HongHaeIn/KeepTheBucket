@@ -104,21 +104,43 @@ a{
     box-shadow: 6px 7px 7px 1px rgba(176, 176, 176, 0.25);
     border-radius: 10px;
 }
+.box:hover, .box:active{
+    position: absolute;
+    width: 620px;
+    height: 320px;
+    transition: 0.7s;
+    
+}
 #b1{
     left: 370px;
     top: 180px;
+}
+#b1:hover, #b1:active{
+    left: 330px;
+    top: 160px;
 }
 #b2{
     left: 970px;
     top: 180px;
 }
+#b2:hover, #b2:active{
+    /* left: 1010px; */
+    top: 160px;
+}
 #b3{
     left: 370px;
     top: 510px;
 }
+#b3:hover, #b3:active{
+    left: 330px;
+    top: 500px;
+}
 #b4{
     left: 970px;
     top: 510px;
+}
+#b4:hover, #b4:active{
+    top: 500px;
 }
 /* 팀원소개 사진 */
 .who{
@@ -153,7 +175,7 @@ a{
     position: absolute;
     width: 200px;
     height: 19px;
-    left: 139px;
+    left: 116px;
     top: 25px;
     
     font-weight: 500;
@@ -273,8 +295,10 @@ input[id="tab02"]:checked ~ #designer{
 input[id="tab01"]:checked ~ .btn > label[for="tab01"]{
     background-color: #F8BAA0;
     color: #ffffff;
+    transition: 0.4s;
 }
 input[id="tab02"]:checked ~ .btn > label[for="tab02"]{
     background-color: #F8BAA0;
     color: #ffffff;
+    transition: 0.4s;
 }
